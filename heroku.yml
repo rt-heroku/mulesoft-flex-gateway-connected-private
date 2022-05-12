@@ -1,0 +1,8 @@
+setup:
+  config:
+    PLATFORM_CONF:
+    PLATFORM_KEY:
+    PLATFORM_PEM:
+build:
+  docker:
+    web: Dockerfile

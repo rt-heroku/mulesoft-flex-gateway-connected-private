@@ -1,0 +1,8 @@
+.editorconfig
+.git
+*.md
+*.yml
+app.json
+STEPS.md
+*.bkp
+run.sh

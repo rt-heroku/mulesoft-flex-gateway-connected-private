@@ -1,0 +1,2 @@
+#@kind Template
+$(echo ${PLATFORM_CONF} | base64 -d)
