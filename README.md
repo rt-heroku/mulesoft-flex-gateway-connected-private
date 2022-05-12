@@ -1,8 +1,8 @@
-# heroku-docker-flex-gateway-example
+# mulesoft-flex-gateway-connected-private
 
-Barebones example of deploying
+Example of deploying
 [the official Flex Gateway Docker image](https://hub.docker.com/r/mulesoft/flex-gateway)
-to Heroku.
+to a Heroku Private Space in Connected Mode.
 
 ## Try it now!
 
@@ -16,8 +16,8 @@ You will need to create a Heroku account and install the Heroku CLI, eg.
 `brew install heroku`.
 
 ```
-git clone git@github.com:garciarodrigor/heroku-docker-flex-gateway-example.git
-cd heroku-docker-flex-gateway-example
+git clone git@github.com:garciarodrigor/mulesoft-flex-gateway-connected-private.git
+cd mulesoft-flex-gateway-connected-private
 heroku container:login
 heroku create
 heroku config:set PLATFORM_CONF=<register-conf-base64> PLATFORM_PEM=<register-pem-base64> PLATFORM_KEY=<register-key-base64>
